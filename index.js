@@ -41,7 +41,10 @@ module.exports = {
 
     // http://eslint.org/docs/rules/no-param-reassign
     'no-param-reassign': [
-      'error', { props: false }
+      'error',
+      {
+        props: false
+      }
     ],
 
     // http://eslint.org/docs/rules/strict
@@ -62,7 +65,8 @@ module.exports = {
     'react/require-extension': 'off',
 
     'generator-star-spacing': [
-      'error', {
+      'error',
+      {
         before: true,
         after: false
       }
