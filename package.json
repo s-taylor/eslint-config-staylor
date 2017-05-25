@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-straylor",
+  "name": "eslint-config-staylor",
   "version": "1.0.0",
   "description": "Standard eslint config for Simon Taylor's projects",
   "main": "index.js",
