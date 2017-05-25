@@ -31,12 +31,7 @@ module.exports = {
     // http://eslint.org/docs/rules/comma-dangle
     'comma-dangle': [
       'error',
-      'never'
-    ],
-
-    // http://eslint.org/docs/rules/no-shadow
-    'no-shadow': [
-      'off'
+      'always-multiline'
     ],
 
     // http://eslint.org/docs/rules/no-param-reassign
@@ -52,24 +47,17 @@ module.exports = {
       'off'
     ],
 
+    // https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-exclusive-tests.md
     'mocha/no-exclusive-tests': 'error',
-
-    // http://eslint.org/docs/rules/func-names
-    'func-names': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
     'react/prefer-stateless-function': [
       'warn'
     ],
 
-    'react/require-extension': 'off',
-
-    'generator-star-spacing': [
-      'error',
-      {
-        before: true,
-        after: false
-      }
+    // http://eslint.org/docs/rules/space-before-function-parentheses
+    "space-before-function-paren": [
+      "error", "never"
     ]
   }
 };
