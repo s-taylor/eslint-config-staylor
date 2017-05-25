@@ -1,0 +1,6 @@
+{
+  "extends": "./index.js",
+  "rules": {
+    // project specific rules go here
+  }
+}
