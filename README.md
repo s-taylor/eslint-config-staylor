@@ -4,7 +4,7 @@ Simon Taylor's eslint configurations
 ## Getting started
 
 ```
-yarn add --dev eslint
+yarn add --dev eslint // Yarn doesn't symlink binaries from nested modules
 yarn add --dev eslint-config-staylor
 ```
 
