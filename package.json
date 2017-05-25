@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-staylor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Standard eslint config for Simon Taylor's projects",
   "main": "index.js",
   "scripts": {
