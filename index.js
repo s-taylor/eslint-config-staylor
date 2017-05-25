@@ -1,3 +1,4 @@
+// options are "off", "warn" or "error"
 module.exports = {
   extends: 'eslint-config-airbnb',
   env: {
@@ -11,7 +12,7 @@ module.exports = {
   rules: {
     // http://eslint.org/docs/rules/no-use-before-define
     'no-use-before-define': [
-      2,
+      'error',
       {
         functions: false
       }
@@ -19,7 +20,7 @@ module.exports = {
 
     // http://eslint.org/docs/rules/quotes
     quotes: [
-      2,
+      'error',
       'single',
       {
         avoidEscape: true,
@@ -29,33 +30,33 @@ module.exports = {
 
     // http://eslint.org/docs/rules/comma-dangle
     'comma-dangle': [
-      2,
+      'error',
       'never'
     ],
 
     // http://eslint.org/docs/rules/no-shadow
     'no-shadow': [
-      0
+      'off'
     ],
 
     // http://eslint.org/docs/rules/no-param-reassign
     'no-param-reassign': [
-      2, { props: false }
+      'error', { props: false }
     ],
 
     // http://eslint.org/docs/rules/strict
     strict: [
-      0
+      'off'
     ],
 
     'mocha/no-exclusive-tests': 'error',
 
     // http://eslint.org/docs/rules/func-names
-    'func-names': 0,
+    'func-names': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
     'react/prefer-stateless-function': [
-      1
+      'warn'
     ],
 
     'react/require-extension': 'off',
