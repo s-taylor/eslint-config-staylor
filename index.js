@@ -59,5 +59,15 @@ module.exports = {
     'space-before-function-paren': [
       'error', 'never',
     ],
+
+    // http://eslint.org/docs/rules/spaced-comment
+    'spaced-comment': [
+      'off',
+    ],
+
+    // http://eslint.org/docs/rules/arrow-body-style
+    'arrow-body-style': [
+      'off',
+    ],
   },
 };
