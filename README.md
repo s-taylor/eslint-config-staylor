@@ -4,6 +4,7 @@ Simon Taylor's eslint configurations
 ## Getting started
 
 ```
+yarn add --dev eslint
 yarn add --dev eslint-config-staylor
 ```
 
